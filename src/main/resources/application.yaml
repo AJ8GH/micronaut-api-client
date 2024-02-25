@@ -1,0 +1,20 @@
+---
+fpl:
+  bootstrap-static: /bootstrap-static/
+
+micronaut:
+  http:
+    services:
+      fpl:
+        url: https://fantasy.premierleague.com/api/bootstrap-static/
+  application:
+    name: hello-micronaut
+
+hello:
+  service:
+    word: Bamboo
+
+client:
+  endpoint:
+    base-url: https://www.fantasy.premierleague.com/api/
+    bootstrap-static: /bootstrap-static/
